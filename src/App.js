@@ -66,7 +66,7 @@ function App() {
         </div>
       </header>
       <main>
-        <div className="container">
+        <div className="container text-center">
           <div className="row mb-3">
             <div className="col"></div>
             <div className="col">
