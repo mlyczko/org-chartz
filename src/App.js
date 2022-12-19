@@ -5,6 +5,8 @@ import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
+// import { List } from 'react-bootstrap-icons';
+import * as Icon from 'react-bootstrap-icons';
 
 function App() {
   const [show, setShow] = useState(false);
@@ -19,7 +21,7 @@ function App() {
             <div className="row">
               <div className="col text-start">
                 <Button variant="primary" onClick={handleShow}>
-                  Menu
+                  <Icon.List />
                 </Button>
                 <Offcanvas show={show} onHide={handleClose}>
                   <Offcanvas.Header closeButton>
