@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Button from 'react-bootstrap/Button';
 import * as Icon from 'react-bootstrap-icons';
+import './OffcanvasMenu.scss';
 
 const OffcanvasMenu = () => {
     const [show, setShow] = useState(false);

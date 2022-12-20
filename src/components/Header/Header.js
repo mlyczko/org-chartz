@@ -8,19 +8,17 @@ import Switch from './components/Switch';
 const Header = () => {
 
     return (
-        <header className="mb-5">
+        <header className="my-3">
             <Container>
-                <div className="py-3 mb-3">
-                    <Row className="align-items-center">
-                        <Col xs={2} className="text-start">
-                            <OffcanvasMenu />
-                        </Col>
-                        <Col xs={10} className="d-flex justify-content-end">
-                            <Search />
-                            <Switch />
-                        </Col>
-                    </Row>
-                </div>
+                <Row className="align-items-center mb-1">
+                    <Col xs={2} className="text-start">
+                        <OffcanvasMenu />
+                    </Col>
+                    <Col xs={10} className="d-flex justify-content-end">
+                        <Search />
+                        <Switch />
+                    </Col>
+                </Row>
             </Container>
         </header>
     )
