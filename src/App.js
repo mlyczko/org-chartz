@@ -41,14 +41,14 @@ function App() {
                 </Offcanvas>
               </div>
               <div className="col d-flex justify-content-end">
-                <Form className="d-flex">
+                <Form className="d-flex position-relative">
+                  <Button className="position-absolute top-0 start-0 bottom-0" variant="btn-outline-dark"><Icon.Search className="me-1" color="black" size={20} /></Button>
                   <Form.Control
                     type="search"
                     placeholder="Search"
-                    className="me-2"
                     aria-label="Search"
+                    className="ps-5"
                   />
-                  <Button variant="outline-success">Search</Button>
                 </Form>
                 <Form className="ms-3 d-flex align-items-center">
                   <Form.Switch
