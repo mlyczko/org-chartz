@@ -1,9 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import OffcanvasMenu from './components/OffcanvasMenu/OffcanvasMenu';
-import Search from './components/Search/Search';
-import Switch from './components/Switch/Switch';
+import OffcanvasMenu from './components/OffcanvasMenu';
+import Search from './components/Search';
+import Switch from './components/Switch';
 
 const Header = () => {
 

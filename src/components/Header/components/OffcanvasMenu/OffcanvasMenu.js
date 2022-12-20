@@ -8,6 +8,7 @@ const OffcanvasMenu = () => {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+
     return (
         <>
             <Button variant="btn-outline-dark" className="p-0" onClick={handleShow}>
