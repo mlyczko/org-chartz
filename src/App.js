@@ -9,9 +9,9 @@ import * as Icon from 'react-bootstrap-icons';
 
 function App() {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
   return (
     <div className="App">
       <header className="mb-5">
@@ -55,7 +55,7 @@ function App() {
                     type="switch"
                     id="custom-switch"
                     label=""
-                    className="float-end"
+                    className="float-end form-switch-md"
                   />
                 </Form>
               </div>
