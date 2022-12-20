@@ -1,7 +1,7 @@
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Header';
-import Main from './Main';
+import Header from './Header/Header';
+import Main from './Main/Main';
 
 const App = () => {
   return (
