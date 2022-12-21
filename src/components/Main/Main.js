@@ -1,6 +1,11 @@
+import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
 import Depth from './components/Depth';
+import UserDetails from './components/UserDetails';
 
 const Main = () => {
+    const [modalShow, setModalShow] = React.useState(false);
+
     return (
         <main>
             <div className="container text-center">
@@ -12,6 +17,13 @@ const Main = () => {
                                 <div className="bg-secondary bg-gradient text-white p-3">
                                     <div>Grzegorz Nitro</div>
                                     <div>CEO</div>
+                                    <Button variant="primary" onClick={() => setModalShow(true)}>
+                                        Show details
+                                    </Button>
+                                    <UserDetails
+                                        show={modalShow}
+                                        onHide={() => setModalShow(false)}
+                                    />
                                 </div>
                             </div>
                             <div className="col mb-4"></div>
