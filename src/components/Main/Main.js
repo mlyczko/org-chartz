@@ -4,7 +4,7 @@ import Depth from './components/Depth';
 import UserDetails from './components/UserDetails';
 
 const Main = () => {
-    const [modalShow, setModalShow] = React.useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     return (
         <main>
@@ -17,12 +17,14 @@ const Main = () => {
                                 <div className="bg-secondary bg-gradient text-white p-3">
                                     <div>Grzegorz Nitro</div>
                                     <div>CEO</div>
-                                    <Button variant="primary" onClick={() => setModalShow(true)}>
-                                        Show details
-                                    </Button>
+                                    <Button variant="primary" onClick={() => setModalShow(true)}>Show details</Button>
                                     <UserDetails
                                         show={modalShow}
                                         onHide={() => setModalShow(false)}
+                                        name='Grzegorz Nitro'
+                                        position='CEO'
+                                        note1='xxx'
+                                        note2='yyy'
                                     />
                                 </div>
                             </div>

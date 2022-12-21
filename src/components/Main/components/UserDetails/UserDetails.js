@@ -14,10 +14,10 @@ const UserDetails = (props) => {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body className="text-center">
-                <h4>Grzegorz Nitro</h4>
-                <p>Position: CEO</p>
-                <p>Field 2: xxx</p>
-                <p>Field 3: yyy</p>
+                <h4 className="mb-4">{props.name}</h4>
+                <p>Position: {props.position}</p>
+                <p>Note 1: {props.note1}</p>
+                <p>Note 2: {props.note2}</p>
             </Modal.Body>
         </Modal>
     );
