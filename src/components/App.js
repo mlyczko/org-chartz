@@ -4,10 +4,11 @@ import Main from './Main';
 import Footer from './Footer';
 
 const App = () => {
+    const nodes = require('../mock/nodes.json')
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Main nodes={nodes} />
       <Footer />
     </div>
   );

@@ -1,0 +1,45 @@
+
+  {
+    "id": "1",
+    "name": "Grzegorz",
+    "lastname": "Nitro",
+    "role": "CEO",
+    "permission": "admin",
+    "children": [
+      {
+        "id": "2",
+        "name": "Kamila",
+        "lastname": "Koza",
+        "role": "HR Director",
+        "permission": "editor",
+        "children": [],
+        "parent": {}
+      },
+      {
+        "id": "3",
+        "name": "Piotr",
+        "lastname": "Szynamnski",
+        "role": "Secretary",
+        "permission": "editor",
+        "children": [],
+        "parent": {}
+      }
+    ],
+    "parent": {
+      "id": "9",
+      "name": "Rafał",
+      "lastname": "Rutkowski",
+      "role": "Owner",
+      "permission": "editor",
+      "children": [],
+      "parent": {
+        "id": "80",
+        "name": "Lucky",
+        "lastname": "Luke",
+        "role": "ElPresidente",
+        "permission": "editor",
+        "children": [],
+        "parent": {}
+      }
+    }
+  }
